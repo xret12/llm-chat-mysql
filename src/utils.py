@@ -9,19 +9,6 @@ from sqlalchemy.exc import ProgrammingError
 
 def init_database(user: str, password: str, host: str,
                   port: str, database: str) -> SQLDatabase:
-    """
-    Initialize a SQLDatabase object using the given connection details.
-
-    Args:
-        user (str): The username to use for the database connection.
-        password (str): The password to use for the database connection.
-        host (str): The hostname or IP address of the database server.
-        port (str): The port number to use for the database connection.
-        database (str): The name of the database to connect to.
-
-    Returns:
-        SQLDatabase: A SQLDatabase object representing the database connection.
-    """
     # Construct URI for database connection using mysql-connector-python package's syntax
     db_uri = f"mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}"
 
