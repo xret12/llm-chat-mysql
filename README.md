@@ -2,20 +2,23 @@
 
 A conversational chatbot designed to interact with a MySQL database and extract information using natural language.
 
-<div style="text-align: center;">
-  <img src="img/sql_chatbot.jpg" alt="Alt text" style="width:100%;"/>
-  <p><em> MySQL Chatbot User Interface</em></p>
-</div>
+<p align="center">
+  <img src="img/sql_chatbot.jpg" alt="" width="100%">
+  <br>
+  <em>MySQL Chatbot User Interface</em>
+</p>
+
 
 ## How to Run
 1. Make sure that MySQL is installed in your local computer. Download it from https://dev.mysql.com/downloads/installer/.
 
     a. Optional Step: Open `MySQL Workbench` and log in to your local instance. You can see a database called `world`. We will use this database or you can create a new one.
 
-<div style="text-align: center;">
-  <img src="img/db.jpg" alt="Alt text" style="width:100%;"/>
-  <p><em>Sample Database</em></p>
-</div>
+<p align="center">
+  <img src="img/db.jpg" alt="" width="400">
+  <br>
+  <em>Sample Database</em>
+</p>
 
 2. Ensure that you have created a `.env` file containing the key-value pair below. This connects the chatbot to the OpenAI ChatGPT model service.
 ```
