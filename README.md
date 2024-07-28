@@ -24,6 +24,9 @@ A conversational chatbot designed to interact with a MySQL database and extract 
 ```
 OPENAI_API_KEY=<your-openai-api-key>
 ```
+- To create an OpenAI API key:
+  - Sign up to OpenAI: https://openai.com/api/
+  - Purchase credits (minimum purchase is $5)
 3. Install the necessary requirements using the command:
 ```
 pip install -r requirements.txt
@@ -32,11 +35,6 @@ pip install -r requirements.txt
 ```
 streamlit run src/app.py
 ```
-
-## OpenAI Connection
-1. Sign up to OpenAI: https://openai.com/api/
-2. Purchase credits (minimum purchase is $5)
-3. Create `.env` file with the API key from OpenAI account
 
 
 ## How it Works
